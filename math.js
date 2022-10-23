@@ -7,7 +7,7 @@ c =	91
 
 const Prime = (n) => {
     let Boolean = false;
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i <= n/2; i++) {
       if (n % i == 0) {
         Boolean = true;
       }
